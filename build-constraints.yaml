@@ -1169,7 +1169,7 @@ packages:
         - through-text
         # Not my packages
         - HStringTemplate
-        - language-ecmascript < 0 # via Diff-0.4.0
+        - language-ecmascript
         - spoon
         - tagshare
 
@@ -5263,7 +5263,6 @@ skipped-tests:
     - insert-ordered-containers # via tasty-1.2
     - int-cast # QuickCheck 2.12
     - ip # hspec 2.5 https://github.com/andrewthad/haskell-ip/issues/33
-    - language-ecmascript # testing-feat 1.1.0.0
     - lattices # via tasty-1.2
     - netrc # via tasty-1.2
     - makefile # GHC 8.2
